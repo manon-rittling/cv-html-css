@@ -1,0 +1,138 @@
+@font-face {
+	font-family: 'anime';
+	src: url('typo/animeace2bb_tt/animeace2_reg.ttf') format("TrueType");
+}
+
+
+
+body {
+    background-image: url('images/bg.jpg');
+    background-size: cover; /* Redimensionne l'image pour couvrir tout l'arrière-plan */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    background-position: center; /* Centre l'image dans l'arrière-plan */
+    backdrop-filter: blur(2px); /* Flou pour la surimpression */
+    opacity: 50;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:0;
+}
+h1 {text-align: center;
+    font-family: anime;
+}
+
+h2 {font-family: anime;}
+
+.conteneur-info {
+    width: 320px; /* Largeur du conteneur */
+    height: 200px; /* Hauteur du conteneur */
+    background-color:rgba(242, 242, 242, 0.7);opacity: 10;
+    margin: 20px; /* Marges extérieures autour du conteneur */
+    border: 5px solid #a8396356; /* Bordure du conteneur */
+    padding: 10px; /* Espacement intérieur du conteneur */
+    border-radius: 100px;
+    text-align: center;
+    position: relative;
+    left: 400px;
+}
+
+#mail-mouse:hover {opacity: 50%;}
+
+.conteneur-objectif {
+    width: 700px; /* Largeur du conteneur */
+    height: 200px; /* Hauteur du conteneur */
+    background-color:rgba(242, 242, 242, 0.7);opacity: 10;
+    margin: 20px; /* Marges extérieures autour du conteneur */
+    border: 5px solid #a8396356; /* Bordure du conteneur */
+    padding: 10px; /* Espacement intérieur du conteneur */
+    border-radius: 100px;
+    text-align: center;
+    position: relative; /* Utilisez la position relative pour déplacer l'élément par rapport à sa position d'origine */
+    left: 600px; 
+    
+    }
+
+.paragraphe-space {margin-top: 50px; }
+
+.conteneur-experience {
+    width: 700px; /* Largeur du conteneur */
+    height: 200px; /* Hauteur du conteneur */
+    background-color:rgba(242, 242, 242, 0.7);opacity: 30;
+    margin: 20px; /* Marges extérieures autour du conteneur */
+    border: 5px solid #a8396356; /* Bordure du conteneur */
+    padding: 10px; /* Espacement intérieur du conteneur */
+    border-radius: 100px;
+    text-align: center;
+    position: relative; /* Utilisez la position relative pour déplacer l'élément par rapport à sa position d'origine */
+    left: 200px;
+    }
+
+
+
+.conteneur-formations {
+    width: 700px; /* Largeur du conteneur */
+    height: 200px; /* Hauteur du conteneur */
+     background-color:rgba(242, 242, 242, 0.7);opacity: 30;
+    margin: 20px; /* Marges extérieures autour du conteneur */
+     border: 5px solid #a8396356; /* Bordure du conteneur */
+    padding: 10px; /* Espacement intérieur du conteneur */
+    border-radius: 100px;
+     text-align: center;
+    position: relative; /* Utilisez la position relative pour déplacer l'élément par rapport à sa position d'origine */
+    left: 600px;
+     }
+
+
+
+.conteneur-competences {
+    width: 700px; /* Largeur du conteneur */
+    height: 200px; /* Hauteur du conteneur */
+     background-color:rgba(242, 242, 242, 0.7);opacity: 30;
+    margin: 20px; /* Marges extérieures autour du conteneur */
+     border: 5px solid #a8396356; /* Bordure du conteneur */
+    padding: 10px; /* Espacement intérieur du conteneur */
+    border-radius: 100px;
+     text-align: center;
+    position: relative; /* Utilisez la position relative pour déplacer l'élément par rapport à sa position d'origine */
+    left: 200px;
+     }
+
+ul li img {
+        width: 60px; /* Largeur de l'image réduite */
+        height: 50px; /* Hauteur de l'image réduite */
+      
+    }
+
+
+#competences{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    width: 100%;
+    justify-content:space-around;
+}
+    
+.competences {
+    display:flex;
+    flex-direction: column;
+}
+
+.conteneur-footer {background-color: black;
+                color: white;
+                font-size:x-small;
+               
+}
+
+#logo-git:hover {opacity: 50%;
+}
+
+#logo-git { position: relative;
+            left: 730px;
+}
+
+#clic-git {display:flex;
+    justify-content: center
+}
+
+#logo-pdf { position: relative;
+            left: 740px;
+}
+#logo-pdf:hover {opacity: 50%;}
